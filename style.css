@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.a img {
+  padding: auto;
+}
+.a button {
+  padding: 1em 4em;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: Poppins;
+  font-weight: 600;
+  text-decoration: none;
+  float: right;
+  cursor: pointer;
+  /* box-shadow: 1px 1px hsl(208, 11%, 55%) ; */
+}
+
+.a button:hover {
+  color: gray;
+}
+
+.a {
+  font-family: Open Sans;
+  font-size: 18px;
+  background-image: url("bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.words1 {
+  display: grid;
+  max-width: 38%;
+  padding-right: 80px;
+}
+.words1 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  width: 90%;
+  font-family: Poppins;
+}
+.words1 p {
+  margin-top: 30px;
+  font-weight: 700;
+}
+.words1 button {
+  margin-top: 30px;
+  padding: 1.3em 2em;
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(322, 100%, 66%);
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  width: 55%;
+}
+.words1 button:hover {
+  background-color: hsl(322, 88%, 74%);
+}
+
+.image1 img {
+  width: 100%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.b {
+  display: grid;
+  background-color: white;
+}
+.grow {
+  display: flex;
+}
+.words2 h1 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.image2 img {
+  width: 100%;
+  height: auto;
+}
