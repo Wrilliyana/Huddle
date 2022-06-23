@@ -194,6 +194,10 @@ header {
   height: auto;
 }
 
+@keyframes colourchange {
+  from {background-color: white;}
+  to {background-color: rgb(245, 188, 240);}
+}
 .ready {
   display: flex;
   background-color: white;
@@ -208,6 +212,10 @@ header {
   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
   position: relative;
   top: 50%;
+  animation-name: colourchange;
+  animation-delay: 3s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .ready h1 {
@@ -343,7 +351,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
+    width: 90%;
     padding: auto;
     padding-left: 0;
   }
@@ -424,3 +433,4 @@ a:hover {
     background-image: url("bg-hero-mobile.svg");
   }
 }
+
